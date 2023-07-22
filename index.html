@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Admin Dashboard</title>
 </head>
@@ -27,22 +30,52 @@
             <li><button>Share</button></li>
         </ul>
     </header>
-    <aside>
-        <h1>Dashboard</h1>
+    <aside class="sidebar">
+        <div class="dashboard_logo">
+            <img src="/images/view-dashboard-outline.svg" alt="">
+            <h1>Dashboard</h1>
+        </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
+                <li>
+                    <img src="/images/home-outline.svg" alt="">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="/images/account.svg" alt="">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="/images/message-reply.svg" alt="">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="/images/history.svg" alt="">
+                    <p>History</p>
+                </li>
+                <li>
+                    <img src="/images/tasks.png" alt="">
+                    <p>Tasks</p>
+                </li>
+                <li>
+                    <img src="/images/account-group.svg" alt="">
+                    <p>Communities</p>
+                </li>
             </ul>
 
             <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+                <li>
+                    <img src="/images/settings.svg" alt="">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="/images/help-box.svg" alt="">
+                    <p>Support</p>
+                </li>
+                <li>
+                    <img src="/images/shield-check.svg" alt="">
+                    <p>Privacy</p>
+                </li>
             </ul>
         </nav>
     </aside>
