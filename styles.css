@@ -45,6 +45,7 @@ header {
     align-items: center;
     padding: 20px 40px;
     row-gap: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 form {
@@ -168,4 +169,6 @@ button {
 
 main {
     grid-area: main;
+    padding: 30px 20px;
+    background-color: #e2e8f0;
 }
