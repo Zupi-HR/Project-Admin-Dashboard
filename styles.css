@@ -45,7 +45,8 @@ header {
     align-items: center;
     padding: 20px 40px;
     row-gap: 40px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 20px rgba(0, 0, 0.1);
+    z-index: 1;
 }
 
 form {
@@ -62,7 +63,7 @@ input[type="search"] {
     border-radius: 20px;
     height: 30px;
     border: none;
-    background: rgb(206, 204, 204);
+    background: #e2e8f0;
 }
 
 .icons_name {
@@ -125,7 +126,8 @@ button {
     grid-row: 1 / -1;
     display: grid;
     row-gap: 40px;
-    grid-template-rows: 50px 200px
+    grid-template-rows: 50px 200px;
+    z-index: 1
 }
 
 .dashboard_logo {
