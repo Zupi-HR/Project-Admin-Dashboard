@@ -36,7 +36,7 @@ img {
     border-radius: 50%;
 }
 
-.main_header {
+header {
     grid-area: header;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
@@ -179,11 +179,11 @@ main {
     gap:  15px;
 }
 
-.main_headers {
-    grid-column: 1 / -1;
+.main_header {
+    grid-column: 1 / 3;
     grid-row: 1 / 2;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    align-self: center;
+    
 }
 
 .main_heading_container {
@@ -206,18 +206,23 @@ article {
     padding: 40px;
     border-left: 10px solid rgb(228, 154, 18);
     background-color: white;
-   
 }
 
 
-
+.main_aside_header {
+    grid-column: 3 / -1;
+    grid-row: 1 / 2;
+    align-self: center;
+}
 
 .aside_main {
     grid-column: 3 / -1;
     grid-row: 2 / -1;
+    width: 60%;
 }
 
 .aside_main_ul {
     background-color: white;
     padding: 40px 20px;
+    border-radius: 10px;
 }
