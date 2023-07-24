@@ -43,10 +43,11 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 50px;
     row-gap: 40px;
     box-shadow: 0 2px 20px rgba(0, 0, 0.1);
     z-index: 1;
+    
 }
 
 form {
@@ -100,10 +101,9 @@ input[type="search"] {
 }
 
 .header_buttons {
-    display: grid;
-    grid-template-columns: min-content min-content min-content;
-    justify-content: center;
-    gap: 70px;
+    display: flex;
+    gap: 15px;
+    justify-self: end;
 }
 
 button {
