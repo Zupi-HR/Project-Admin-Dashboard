@@ -36,7 +36,7 @@ img {
     border-radius: 50%;
 }
 
-header {
+.main_header {
     grid-area: header;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
@@ -173,6 +173,9 @@ main {
     grid-area: main;
     padding: 30px 20px;
     background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:  15px;
 }
 
 .main_heading_container {
@@ -188,11 +191,6 @@ main h2 {
     
 }
 
-.article_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 15px;
-}
 
 
 article {
@@ -205,12 +203,12 @@ article {
 
 
 
-aside {
+.aside_main {
     grid-column: 3 / -1;
     grid-row: 1 / -4;
 }
 
-.aside_ul {
+.aside_main_ul {
     background-color: white;
     padding: 40px 20px;
 }
