@@ -91,6 +91,7 @@ input[type="search"] {
 }
 
 .user_name img {
+    width: 70px;
     grid-row: 1 / -1;
 }
 
@@ -219,11 +220,32 @@ article {
     grid-column: 3 / -1;
     grid-row: 2 / -1;
     width: 60%;
+    display: grid;
+    gap: 20px;
 }
+
+
+.aside_main_ul_wrapper:nth-child(2) {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: min-content;
+}
+
+  
 
 .aside_main_ul {
     background-color: white;
-    padding: 40px 20px;
+    padding: 30px 30px;
     border-radius: 10px;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    display: grid;
+    gap: 10px;
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr;
+}
+
+.aside_main_ul hr {
+    width: 100%;
+    border: 1px solid #ccc;
+    
 }
