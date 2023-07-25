@@ -14,6 +14,7 @@ body {
     grid-template-areas: "sidebar header header"
         "sidebar main main"
         "sidebar main main"
+        "sidebar main main"
         "sidebar main main";
 }
 
@@ -176,7 +177,7 @@ main {
     background-color: #e2e8f0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 21px 200px 200px 200px 200px;
+    grid-template-rows: 21px 1fr 1fr 1fr 1fr;
     gap:  15px;
 }
 
